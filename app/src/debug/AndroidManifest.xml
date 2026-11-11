@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 仅 debug 构建注入：闭眼模块的自测入口，release 不包含 -->
+    <application>
+
+        <activity
+            android:name=".eyelock.EyeProbeActivity"
+            android:exported="true"
+            android:label="EyeProbe"
+            android:screenOrientation="fullSensor" />
+
+        <receiver
+            android:name=".eyelock.EyeActionTestReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.facefollow.eyelock.TEST" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

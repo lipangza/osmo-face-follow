@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FaceFollow</string>
+    <string name="switch_cam">切换镜头</string>
+    <string name="m3_test">M3 标定（仅 adb）</string>
+    <string name="follow_switch">人脸跟随</string>
+    <string name="follow_readout_default">跟随：关闭</string>
+    <string name="eye_lock_switch">闭眼锁屏</string>
+    <string name="eye_lock_admin_label">闭眼锁屏</string>
+    <string name="eye_lock_admin_description">允许在检测到持续闭眼时锁屏（仅 force-lock，不含擦除数据等策略）</string>
+</resources>
